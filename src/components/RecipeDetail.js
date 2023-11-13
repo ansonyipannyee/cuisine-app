@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
-function RecipeDetail({ match }) {
+function RecipeDetail() {
+  const { id } = useParams(); 
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const recipeId = match.params.id;
-    axios.get('/Users/ant/Development/code/phase-2/cuisine-app/db.json')
+    fetch('/db.json')
       .then((response) => {
-        const recipe = response.data.recipes.find(
-          (r) => r.id === parseInt(recipeId)
-        );
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        const recipe = data.recipes.find((r) => r.id === parseInt(id));
         if (recipe) {
           setSelectedRecipe(recipe);
         } else {
@@ -22,7 +27,7 @@ function RecipeDetail({ match }) {
         console.error(error);
         setLoading(false);
       });
-  }, [match.params.id]);
+  }, [id]); 
 
   return (
     <div>
@@ -33,7 +38,6 @@ function RecipeDetail({ match }) {
           <h2>{selectedRecipe.name}</h2>
           <p>Description: {selectedRecipe.description}</p>
           <img src={selectedRecipe.thumbnail} alt={selectedRecipe.name} />
-          <a href={selectedRecipe.recipe}>Recipe</a>
         </div>
       ) : (
         <p>Recipe not found.</p>

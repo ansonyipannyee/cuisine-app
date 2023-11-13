@@ -6,9 +6,15 @@ function RecipeList() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('/Users/ant/Development/code/phase-2/cuisine-app/db.json')
+    fetch('/db.json')
       .then((response) => {
-        setRecipes(response.data.recipes);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setRecipes(data.recipes);
         setLoading(false);
       })
       .catch((error) => {
@@ -19,7 +25,7 @@ function RecipeList() {
 
   return (
     <div>
-      <h1>Cuisines from Different Continents</h1>
+      <h1>all recipes.</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
