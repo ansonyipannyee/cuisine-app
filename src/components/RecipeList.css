@@ -1,0 +1,44 @@
+.dishes-list {
+    margin-top: 100px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.dishes-list-title {
+    margin: 30px;
+}
+
+.dishes-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.recipe-item {
+    width: 200px; 
+    margin: 10px;
+    text-align: left;
+}
+
+.recipe-img img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.recipe-name {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.recipe-name {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+

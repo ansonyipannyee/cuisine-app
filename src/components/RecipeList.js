@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./RecipeList.css";
 
 function RecipeList() {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/db.json')
+    fetch("/db.json")
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         return response.json();
       })
@@ -24,15 +25,20 @@ function RecipeList() {
   }, []);
 
   return (
-    <div>
-      <h1>all recipes.</h1>
+    <div className="dishes-list">
+      <h1 className="dishes-list-title">all recipes.</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <ul>
+        <ul className="dishes-container">
           {recipes.map((recipe) => (
-            <li key={recipe.id}>
-              <Link to={`/recipe/${recipe.id}`}>{recipe.name}</Link>
+            <li key={recipe.id} className="recipe-item">
+              <Link to={`/recipe/${recipe.id}`} className="dishes-link">
+                <div className="recipe-img">
+                  <img src={recipe.thumbnail} alt={recipe.name} />
+                </div>
+                <div className="recipe-name">{recipe.name}</div>
+              </Link>
             </li>
           ))}
         </ul>
