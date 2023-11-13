@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import "./RecipeDetail.css";
 
 function RecipeDetail() {
-  const { id } = useParams(); 
+  const { id } = useParams();
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('/db.json')
+    fetch("/db.json")
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         return response.json();
       })
@@ -19,29 +21,55 @@ function RecipeDetail() {
         if (recipe) {
           setSelectedRecipe(recipe);
         } else {
-          setSelectedRecipe(null);
+          setError("Recipe not found.");
         }
-        setLoading(false);
       })
       .catch((error) => {
-        console.error(error);
+        setError("Network error occurred.");
+      })
+      .finally(() => {
         setLoading(false);
       });
-  }, [id]); 
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="recipe-detail">
+        <p className="loading-message">Loading...</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="recipe-detail">
+        <p className="error-message">{error}</p>
+      </div>
+    );
+  }
+
+  if (selectedRecipe) {
+    return (
+      <div className="recipe-detail">
+        <div className="recipe-detail-container">
+          <h2>{selectedRecipe.name}</h2>
+          <img src={selectedRecipe.thumbnail} alt={selectedRecipe.name} />
+          <p>{selectedRecipe.description}</p>
+          <a
+            href={selectedRecipe.recipe}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            see recipe.
+          </a>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div>
-      {loading ? (
-        <p>Loading...</p>
-      ) : selectedRecipe ? (
-        <div>
-          <h2>{selectedRecipe.name}</h2>
-          <p>Description: {selectedRecipe.description}</p>
-          <img src={selectedRecipe.thumbnail} alt={selectedRecipe.name} />
-        </div>
-      ) : (
-        <p>Recipe not found.</p>
-      )}
+    <div className="recipe-detail">
+      <p className="error-message">Recipe not found.</p>
     </div>
   );
 }

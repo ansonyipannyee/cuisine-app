@@ -17,7 +17,8 @@
         "Bún bò Huế is a hidden Vietnamese gem that has yet to “make it” in mainstream American cuisine. Its a rich and spicy soup with deep layers of flavor. This Central Vietnamese soup is paired with tender slices of beef and pork, then topped with lots of fresh herbs."
       ],
       "thumbnail": "https://www.marionskitchen.com/wp-content/uploads/2021/09/Bun-Bo-Hue8624.jpg",
-      "recipe": "https://www.hungryhuy.com/bun-bo-hue-recipe/"
+      "recipe": "https://www.hungryhuy.com/bun-bo-hue-recipe/",
+      "favorite": false
     },
     {
       "id": 2,
@@ -27,7 +28,8 @@
         "Pad krapow is one of the most popular and easy to prepare dishes from Thai cuisine. Holy basil (bai krapow) is stir-fried along with a source of protein of choice (meat, fish or tofu), garlic, chilli peppers, seasonings and sometimes green beans."
       ],
       "thumbnail": "https://www.thesavorychopstick.com/wp-content/uploads/2022/10/Pad-Kra-Pao.jpg",
-      "recipe": "https://thewoksoflife.com/pad-kra-pao/"
+      "recipe": "https://thewoksoflife.com/pad-kra-pao/",
+      "favorite": false
     },
     {
       "id": 3,
@@ -37,7 +39,8 @@
         "Mapo tofu is a spicy dish from the Chinese province of Sichuan, consisting of fresh silk tofu and minced meat in sauce of fermented beans, chilli oil and Sichuan peppercorns. A well-made mapo tofu will tingle your tongue and can be eaten with steamed rice."
       ],
       "thumbnail": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-10.jpg",
-      "recipe": "https://thewoksoflife.com/ma-po-tofu-real-deal/"
+      "recipe": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "favorite": false
     },
     {
       "id": 4,
@@ -47,7 +50,8 @@
         "Shark fin soup is a soup that often has little to do with sharks or fins. It is a chicken soup, lightly thickened with potato starch, with strings of chicken and egg. In China, the dish is mainly eaten during special occasions."
       ],
       "thumbnail": "https://s41230.pcdn.co/wp-content/uploads/2018/07/shark-fin-soup.jpg",
-      "recipe": "https://www.newmalaysiankitchen.com/easy-imitation-shark-fin-soup-30-min/"
+      "recipe": "https://www.newmalaysiankitchen.com/easy-imitation-shark-fin-soup-30-min/",
+      "favorite": false
     },
     {
       "id": 5,
@@ -57,7 +61,8 @@
         "Gulab jamun is an Indian dessert of fried dough balls that are soaked in a sweet, sticky sugar syrup. As per tradition, the syrup has a delicate rose flavour: Gulab means 'rose water' and jamun refers to a berry of a similar size and colour."
       ],
       "thumbnail": "https://opt.toiimg.com/recuperator/img/toi/m-65841454/65841454.jpg",
-      "recipe": "https://www.indianhealthyrecipes.com/gulab-jamun-recipe-using-milk-powder/"
+      "recipe": "https://www.indianhealthyrecipes.com/gulab-jamun-recipe-using-milk-powder/",
+      "favorite": false
     },
     {
       "id": 6,
@@ -67,7 +72,8 @@
         "Greek salad, also known as village salad or horiatiki is the national dish of Greece, consisting of quartered tomatoes, sliced red onions, and chunky slices of cucumber. Depending on the region, there can also be olives, green peppers, feta cheese, oregano, salt, pepper, or a typical dressing made from olive oil and lemon or vinegar (optionally)."
       ],
       "thumbnail": "https://thegreekfoodie.com/wp-content/uploads/2021/04/Horiatiki_salad_SQ.jpg",
-      "recipe": "https://www.mediterraneanliving.com/authentic-greek-salad-horiatiki-salata/"
+      "recipe": "https://www.mediterraneanliving.com/authentic-greek-salad-horiatiki-salata/",
+      "favorite": false
     },
     {
       "id": 7,
@@ -77,7 +83,8 @@
         "The French expression au gratin is an everyday term in the culinary world, denoting a technique for preparing oven-baked dishes. In the 16th century or even earlier, the word gratin referred to the burnt, crispy bits of a dish that were stuck to the bottom of a pot or pan, which had to be grated or scraped off if they were not to go to waste."
       ],
       "thumbnail": "https://cdn.tasteatlas.com//Images/Dishes/315e24e4f20b44a39da9970ab6e3c50b.jpg",
-      "recipe": "https://www.recipetineats.com/potatoes-au-gratin/"
+      "recipe": "https://www.recipetineats.com/potatoes-au-gratin/",
+      "favorite": false
     },
     {
       "id": 8,
@@ -87,7 +94,8 @@
         "Krapfen was probably the first European-style doughnut to appear, followed by similar varieties in other countries. These pastries are traditionally prepared with leavened dough that is deep-fried until golden and crispy on the outside, while they remain soft, light, and airy on the inside."
       ],
       "thumbnail": "https://cdn.tasteatlas.com//images/dishes/5d7bb143eccb46dcba3e9a5f08c4e150.jpg",
-      "recipe": "https://www.recipesfromeurope.com/krapfen/"
+      "recipe": "https://www.recipesfromeurope.com/krapfen/",
+      "favorite": false
     },
     {
       "id": 9,
@@ -97,7 +105,8 @@
         "Smørrebrød is a traditional Danish open-faced sandwich consisting of buttered rye bread that is topped with numerous ingredients and typically accompanied by vegetables, herbs, and salads. Toppings include ingredients such as cold cuts of meat, cheeses, spreads, meatballs, caviar, and condiments such as mayonnaise."
       ],
       "thumbnail": "https://www.carolinescooking.com/wp-content/uploads/2023/07/Danish-open-sandwiches-smorrebrod-featured-pic-sq.jpg",
-      "recipe": "https://whereismyspoon.co/open-faced-sandwiches-smorrebrod-danish-food/"
+      "recipe": "https://whereismyspoon.co/open-faced-sandwiches-smorrebrod-danish-food/",
+      "favorite": false
     },
     {
       "id": 10,
@@ -107,7 +116,8 @@
         "Black Forest cherry cake is a popular German dessert consisting of chocolate sponges that are coated in whipped cream and dotted with kirschwasser-infused cherries. Some varieties use the kirschwasser brandy to soak the chocolate layers or to lightly flavor the whipped cream."
       ],
       "thumbnail": "https://www.recipetineats.com/wp-content/uploads/2021/05/Black-Forest-Cake-new_7.jpg",
-      "recipe": "https://www.recipetineats.com/black-forest-cake/"
+      "recipe": "https://www.recipetineats.com/black-forest-cake/",
+      "favorite": false
     },
     {
       "id": 11,
@@ -117,7 +127,8 @@
         "Unlike most other types of salsa, pico de gallo is of solid consistency, made with a combination of coriander, onions, tomatoes, and hot peppers such as serranos or jalapeños."
       ],
       "thumbnail": "https://cookieandkate.com/images/2018/09/best-pico-de-gallo-recipe-2.jpg",
-      "recipe": "https://cookieandkate.com/classic-pico-de-gallo-recipe/"
+      "recipe": "https://cookieandkate.com/classic-pico-de-gallo-recipe/",
+      "favorite": false
     },
     {
       "id": 12,
@@ -127,7 +138,8 @@
         "Chimichanga is a wrapped, deep-fried flour tortilla filled with a variety of ingredients such as shredded chicken, beef, rice, beans, onions, and cheese. Although the dish is especially popular in the Mexican regions of Sinaloa and Sonora, most people believe that chimichanga was either invented in a Tucson restaurant or in a Phoenix restaurant in the early 1920s."
       ],
       "thumbnail": "https://tastesbetterfromscratch.com/wp-content/uploads/2013/03/Chicken-Chimichangas-10.jpg",
-      "recipe": "https://tastesbetterfromscratch.com/chicken-chimichangas/"
+      "recipe": "https://tastesbetterfromscratch.com/chicken-chimichangas/",
+      "favorite": false
     },
     {
       "id": 13,
@@ -137,7 +149,8 @@
         "These squares of deep-fried pastry dough are sprinkled with powdered sugar and are traditionally served hot. The dish hails from France, and French settlers brought it to the Acadia region of Canada in the 17th century. Many of the Acadians later moved to Louisiana, and they brought their culinary traditions with them."
       ],
       "thumbnail": "https://bakerbynature.com/wp-content/uploads/2017/09/beignets-1-of-1.jpg",
-      "recipe": "https://bakerbynature.com/new-orleans-style-beignets/"
+      "recipe": "https://bakerbynature.com/new-orleans-style-beignets/",
+      "favorite": false
     },
     {
       "id": 14,
@@ -147,7 +160,8 @@
         "A Cuban or a Cubano is a grilled, pressed sandwich made with Cuban bread that is filled with ham, roasted pork, Swiss cheese, pickles, and mustard. It was originally invented by Cuban immigrants in Florida, who wanted to make their own variation on a classic grilled ham and cheese sandwich."
       ],
       "thumbnail": "https://www.recipetineats.com/wp-content/uploads/2015/04/Cuban-Sandwiches-Cubanos_side-view_680px.jpg",
-      "recipe": "https://www.recipetineats.com/cuban-pork-sandwich-cubanos-from-chef-movie/"
+      "recipe": "https://www.recipetineats.com/cuban-pork-sandwich-cubanos-from-chef-movie/",
+      "favorite": false
     },
     {
       "id": 15,
@@ -157,7 +171,8 @@
         "Pernil is one of Puerto Rico's most famous dishes, a succulent roasted pork shoulder that is traditionally seasoned in a marinade called adobo mojado, consisting of paprika, salt, vinegar, garlic, and oregano. The name of the dish is derived from the Spanish word pierna, meaning leg, but it is also a Catalan word for ham, referring to the traditional recipe that calls for fresh ham."
       ],
       "thumbnail": "https://hips.hearstapps.com/hmg-prod/images/delish-221128-puertoricanpernil-099-ls-1670357871.jpg",
-      "recipe": "https://www.delish.com/cooking/recipe-ideas/a42169381/pernil-recipe/"
+      "recipe": "https://www.delish.com/cooking/recipe-ideas/a42169381/pernil-recipe/",
+      "favorite": false
     },
     {
       "id": 16,
@@ -167,7 +182,8 @@
         "This workers meal from the Pasia region is now thought of as the national dish of Colombia. The word “bandeja” means “platter”, which gives you a good indication of its size."
       ],
       "thumbnail": "https://abuelascounter.com/wp-content/uploads/2022/10/Bandeja-Paisa.jpeg",
-      "recipe": "https://www.myrecipes.com/recipe/bandeja-paisa"
+      "recipe": "https://www.myrecipes.com/recipe/bandeja-paisa",
+      "favorite": false
     },
     {
       "id": 17,
@@ -177,7 +193,8 @@
         "Like many a chicken dish, aji de gallina is real comfort food for Peruvians. Its made of spicy shredded chicken, with a rich, creamy sauce. The sauce is based on onions, garlic, walnuts, and cheese, thickened with bread, and flavored with aji amarillo chili, pepper, and herbs. It is served with white rice, then garnished with black olives."
       ],
       "thumbnail": "https://www.gourmet.cl/wp-content/uploads/2016/09/Aji-Gallina-web-570x458.jpg",
-      "recipe": "https://www.gourmet.cl/recetas/aji-de-gallina/"
+      "recipe": "https://www.gourmet.cl/recetas/aji-de-gallina/",
+      "favorite": false
     },
     {
       "id": 18,
@@ -187,7 +204,8 @@
         "Encebollado is a soup topped with thin onion slices pickled in lemon juice. It's claimed that the soup cures a hangover. The fish version is very popular in the coastal region of Ecuador. Don't worry about the little heat in the soup. It finds a perfect balance with the other ingredients once you stuck up your plate."
       ],
       "thumbnail": "https://www.laylita.com/recipes/wp-content/uploads/2008/03/Encebollado-atun.jpg",
-      "recipe": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/"
+      "recipe": "https://www.laylita.com/recipes/encebollado-de-pescado-or-tuna-soup/",
+      "favorite": false
     },
     {
       "id": 19,
@@ -197,7 +215,8 @@
         "Thick, smooth and boasting an intense butterscotch flavour, dulce de leche is the queen of caramel sauces."
       ],
       "thumbnail": "https://img.taste.com.au/EqUc_y5o/w720-h480-cfill-q80/taste/2016/11/dulce-de-leche-75003-1.jpeg",
-      "recipe": "https://www.taste.com.au/recipes/dulce-de-leche/78aece93-9693-484d-85e9-e2fee238c6f0"
+      "recipe": "https://www.taste.com.au/recipes/dulce-de-leche/78aece93-9693-484d-85e9-e2fee238c6f0",
+      "favorite": false
     },
     {
       "id": 20,
@@ -207,7 +226,8 @@
         "These round cookies are very popular throughout South America, but most associated with Peru, Argentina, Chile, and Uruguay. They are eaten for breakfast, afternoon tea, or as a snack at any time."
       ],
       "thumbnail": "https://prettysimplesweet.com/wp-content/uploads/2015/05/Alfajores-Dulce-de-Leche-Cookies1.jpg",
-      "recipe": "https://prettysimplesweet.com/alfajores/"
+      "recipe": "https://prettysimplesweet.com/alfajores/",
+      "favorite": false
     },
     {
       "id": 21,
@@ -217,7 +237,8 @@
         "This dish, like the popular Caldeirada de Peixe (fish stew) reveals the strong influence of Portuguese cuisine on this former colony, and is considered one of Angolas national food treasures."
       ],
       "thumbnail": "https://africanbites.com/wp-content/uploads/2015/02/IMG_6960.jpg",
-      "recipe": "https://www.africanbites.com/muamba-chickenmuamba-de-galinha/"
+      "recipe": "https://www.africanbites.com/muamba-chickenmuamba-de-galinha/",
+      "favorite": false
     },
     {
       "id": 22,
@@ -227,7 +248,8 @@
         "Like many a chicken dish, aji de gallina is real comfort food for Peruvians. Its made of spicy shredded chicken, with a rich, creamy sauce. The sauce is based on onions, garlic, walnuts, and cheese, thickened with bread, and flavored with aji amarillo chili, pepper, and herbs. It is served with white rice, then garnished with black olives."
       ],
       "thumbnail": "https://www.themediterraneandish.com/wp-content/uploads/2020/01/foul-mudammas-recipe-10.jpg",
-      "recipe": "https://www.themediterraneandish.com/foul-mudammas-recipe/"
+      "recipe": "https://www.themediterraneandish.com/foul-mudammas-recipe/",
+      "favorite": false
     },
     {
       "id": 23,
@@ -237,7 +259,8 @@
         "Potjiekos is made by slow cooking meat, often lamb or beef, in a broth and wine, then adding in vegetables, spices, and a bit of milk. It's different compared to classic stews in that you don't stir potjiekos. It's a wonderfully flavorful stew, filled with savory, melt-in-your-mouth meat and tender veggies. It's a delicious, easy dish that the whole family will enjoy!"
       ],
       "thumbnail": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/11/Potjiekos-1200x675.jpg",
-      "recipe": "https://www.cookist.com/potjiekos/"
+      "recipe": "https://www.cookist.com/potjiekos/",
+      "favorite": false
     },
     {
       "id": 24,
@@ -247,7 +270,8 @@
         "Pap en vleis (literally, “maize porridge and meat”) is a colorful umbrella of a term that encompasses virtually any combination of starch and braaied or stewed meat, with an obligatory side-serving of spicy gravy, relish or chakalaka. Shisa nyama, meaning “burn the meat” in Zulu, has come to refer to a festive “bring-and-braai” gathering."
       ],
       "thumbnail": "https://seeafricatoday.com/wp-content/uploads/2021/02/Nyam-Tred-Hunter.jpeg",
-      "recipe": "https://allaboutbraai.wordpress.com/pap-en-vleis/"
+      "recipe": "https://allaboutbraai.wordpress.com/pap-en-vleis/",
+      "favorite": false
     },
     {
       "id": 25,
@@ -257,7 +281,8 @@
         "Piri-piri chicken is a spicy dish with roots in both Africa and Portugal. The dish was created in Angola and Mozambique when Portuguese settlers arrived with chile peppers (known as piri-piri in Swahili)."
       ],
       "thumbnail": "https://assets.epicurious.com/photos/5aea2995d45cb704e7b87dab/1:1/w_1600,c_limit/piri-piri-chicken-recipe-050218.jpg",
-      "recipe": "https://www.epicurious.com/recipes/food/views/piri-piri-chicken-359750"
+      "recipe": "https://www.epicurious.com/recipes/food/views/piri-piri-chicken-359750",
+      "favorite": false
     },
     {
       "id": 26,
@@ -267,16 +292,19 @@
         "Pavlova is a meringue-based dessert. Originating in Australia in the early 20th century, it was named after the Russian ballerina Anna Pavlova. Taking the form of a cake-like circular block of baked meringue, pavlova has a crisp crust and soft, light inside."
       ],
       "thumbnail": "https://www.recipetineats.com/wp-content/uploads/2016/12/Pavlova-4.jpg",
-      "recipe": "https://www.recipetineats.com/pavlova-recipe/"
+      "recipe": "https://www.recipetineats.com/pavlova-recipe/",
+      "favorite": false
     },
     {
       "id": 27,
       "name": "Bush Kangaroo Stew",
       "continentId": 6,
       "description": [
-        "https://images.sbs.com.au/dims4/default/29dbc92/2147483647/strip/true/crop/1250x703+0+65/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2Fdrupal%2Ffood%2Fpublic%2Fog_ep8_bush-kangaroo-stew-2.jpg"
+        "A lesser-used cut of kangaroo becomes rich and tender in Nornie Bero’s spin on slow-cooked stew, enriched with Australian bush herbs and spices."
       ],
-      "thumbnail": "https://www.kangarooindustry.com/wp-content/uploads/2022/02/distintive-image-1.jpg"
+      "thumbnail": "https://www.kangarooindustry.com/wp-content/uploads/2022/02/distintive-image-1.jpg",
+      "recipe": "https://www.sbs.com.au/food/recipe/bush-kangaroo-stew/4ztvcvkxc",
+      "favorite": false
     },
     {
       "id": 28,
@@ -286,7 +314,8 @@
         "There is no cake more Australian than Lamingtons! A moist butter sponge dipped in chocolate then coated with coconut, this is The Cake sold at every suburban bakery and weekend fundraisers."
       ],
       "thumbnail": "https://www.recipetineats.com/wp-content/uploads/2019/01/Lamingtons_4.jpg",
-      "recipe": "https://www.recipetineats.com/classic-lamingtons/"
+      "recipe": "https://www.recipetineats.com/classic-lamingtons/",
+      "favorite": false
     },
     {
       "id": 29,
@@ -296,7 +325,8 @@
         "Chicken Parmigiana (or Chicken Parmesan), the great pub favourite has finally landed! Pollo alla parmigiana in Italian, but affectionately referred by Aussies as Parma, Parmi or “a schnitty with tomato sauce and cheese”, you’ll love this homemade recipe with extra crispy schnitzel, best ever parmigiana sauce and juicy marinated chicken."
       ],
       "thumbnail": "https://www.recipetineats.com/wp-content/uploads/2020/09/Chicken-Parmigiana_7.jpg",
-      "recipe": "https://www.recipetineats.com/chicken-parmigiana/"
+      "recipe": "https://www.recipetineats.com/chicken-parmigiana/",
+      "favorite": false
     },
     {
       "id": 30,
@@ -306,7 +336,8 @@
         "The great Australian Meat Pie!! Shortcrust pastry filled with slow cooked chunky pieces of beef in a rich gravy topped with golden puff pastry, this meat pie recipe requires patience but you will be regarded as a bloody legend by everybody fortunate enough to try one!"
       ],
       "thumbnail": "https://www.recipetineats.com/wp-content/uploads/2019/04/Meat-Pies_3.jpg",
-      "recipe": "https://www.recipetineats.com/meat-pie-recipe/"
+      "recipe": "https://www.recipetineats.com/meat-pie-recipe/",
+      "favorite": false
     },
     {
       "id": 31,
@@ -316,7 +347,8 @@
         "Pemmican is a mix of ground and dried meat featuring a whole lot of fat. You’ll need it as your body will be burning more calories than usual trying to stay warm. This economical dish will provide you with a great energy boost for your day. While it may not look super appetizing, you’ll have to try it to judge it yourself!"
       ],
       "thumbnail": "https://marksdailyapple.com/uploads/2009/05/bars_02-640x427.jpg",
-      "recipe": "https://www.acanela.com/blog/what-to-eat-in-antarctica"
+      "recipe": "https://www.acanela.com/blog/what-to-eat-in-antarctica",
+      "favorite": false
     },
     {
       "id": 32,
@@ -325,7 +357,9 @@
       "description": [
         "These plain biscuits come high in energy. They have powered residents to the South Pole while driving dog teams for many years. They also serve as a staple for scientists as they carry out their surveys and field research."
       ],
-      "thumbnail": "https://www.coolantarctica.com/schools/DSCF3703-sm.jpg"
+      "thumbnail": "https://www.coolantarctica.com/schools/DSCF3703-sm.jpg",
+      "recipe": "https://www.coolantarctica.com/schools/antarctic_sledging_biscuit_recipe.php",
+      "favorite": false
     },
     {
       "id": 33,
@@ -335,7 +369,8 @@
         "Seal steaks, cooked over an open flame or grilled to perfection, offer a hearty and flavoursome dining experience. The meat is lean, tender, and has a distinct flavour that reflects the diet of these marine mammals."
       ],
       "thumbnail": "https://i1.wp.com/firstweeat.ca/wp-content/uploads/2018/01/seal-meat.jpg",
-      "recipe": "https://firstweeat.ca/traditional-seal-meat-recipe/"
+      "recipe": "https://firstweeat.ca/traditional-seal-meat-recipe/",
+      "favorite": false
     },
     {
       "id": 34,
@@ -345,7 +380,8 @@
         "There is no national dish of Antarctica. Recipes don't get passed down from generation to generation. That's because Antarctica has no native population, unless you count the penguins. Beef Wellington is served at the Amundsen-Scott South Pole Station every Christmas."
       ],
       "thumbnail": "https://1.bp.blogspot.com/-SIdTNtt0LMU/TrrI34GyEKI/AAAAAAAAAPk/uKJgRxwFYfw/s320/010_14_cuttenderloin.jpg",
-      "recipe": "https://travelbystove.blogspot.com/2011/11/recipes-from-antarctica.html"
+      "recipe": "https://travelbystove.blogspot.com/2011/11/recipes-from-antarctica.html",
+      "favorite": false
     },
     {
       "id": 35,
@@ -355,7 +391,8 @@
         "This bannocks recipe is exactly what Antarctic explorer, Ernest Shackleton, and his crew would have used. Bannocks as explorer survival food. Bannocks are a circular flatbread originally from Scotland and the north of England. Our bannocks are made from einkorn flour, salt, baking powder, water, and butter. They're a very simple and versatile form of bread."
       ],
       "thumbnail": "https://happyhomeschooladventures.com/wp-content/uploads/2022/06/Fried-Bannocks.jpg",
-      "recipe": "https://happyhomeschooladventures.com/bannocks-recipe/"
+      "recipe": "https://happyhomeschooladventures.com/bannocks-recipe/",
+      "favorite": false
     }
   ]
 }

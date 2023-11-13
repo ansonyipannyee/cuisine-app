@@ -10,7 +10,10 @@ function NavBar() {
           <Link to="/homepage">home.</Link>
         </li>
         <li>
-          <Link to="/recipelist">recipe list.</Link>
+          <Link to="/recipelist">all dishes.</Link>
+        </li>
+        <li>
+          <Link to="/continents">by continent.</Link>
         </li>
         <li>
           <Link to="/favorites">favorites.</Link>

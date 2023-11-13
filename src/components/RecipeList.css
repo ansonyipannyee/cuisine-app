@@ -1,5 +1,7 @@
-.dishes-list {
-    margin-top: 100px;
+.dishes-list-container {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
     font-family: 'Noto Serif JP', serif;
 }
 
@@ -41,4 +43,3 @@
     text-decoration: none;
     display: inline-block;
 }
-

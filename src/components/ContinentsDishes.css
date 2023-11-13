@@ -1,0 +1,68 @@
+.continents-dishes-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Noto Serif JP', serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .continents-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .continents-list li {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  .dishes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dish-item {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .dishitem-img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  
+  .dish-details {
+    flex: 1;
+  }
+  
+  h4 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0078d4;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

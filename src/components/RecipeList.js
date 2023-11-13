@@ -25,10 +25,10 @@ function RecipeList() {
   }, []);
 
   return (
-    <div className="dishes-list">
-      <h1 className="dishes-list-title">all recipes.</h1>
+    <div className="dishes-list-container">
+      <h1 className="dishes-list-title">all dishes.</h1>
       {loading ? (
-        <p>Loading...</p>
+        <p>loading...</p>
       ) : (
         <ul className="dishes-container">
           {recipes.map((recipe) => (
