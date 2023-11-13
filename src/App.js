@@ -22,7 +22,6 @@ function App() {
           <Route path="/continents" element={<ContinentsDishes />} />
           <Route path="/recipelist" element={<RecipeList />} />
           <Route path="/recipe/:id" element={<RecipeDetail />} />
-          {/* <Route path="/favorites" element={<Favorites />} /> */}
         </Routes>
       </div>
     </Router>

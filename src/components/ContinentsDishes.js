@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import './ContinentsDishes.css'; 
+import React, { useState, useEffect } from "react";
+import "./ContinentsDishes.css";
 
 function ContinentsDishes() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('/db.json')
+    fetch("/db.json")
       .then((response) => response.json())
       .then((jsonData) => {
         setData(jsonData);
       })
       .catch((error) => {
-        console.error('Error fetching data:', error);
+        console.error("Error fetching data:", error);
       });
   }, []);
 
@@ -31,11 +31,19 @@ function ContinentsDishes() {
                 .filter((recipe) => recipe.continentId === continent.id)
                 .map((recipe) => (
                   <li key={recipe.id} className="dish-item">
-                    <img className="dishitem-img" src={recipe.thumbnail} alt={recipe.name} />
+                    <img
+                      className="dishitem-img"
+                      src={recipe.thumbnail}
+                      alt={recipe.name}
+                    />
                     <div className="dish-details">
                       <h4>{recipe.name}</h4>
                       <p>{recipe.description[0]}</p>
-                      <a href={recipe.recipe} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={recipe.recipe}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         see recipe.
                       </a>
                     </div>

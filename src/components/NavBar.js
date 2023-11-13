@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './NavBar.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav className="navbar"> 
+    <nav className="navbar">
       <ul>
         <li>
           <Link to="/homepage">home.</Link>
@@ -14,9 +14,6 @@ function NavBar() {
         </li>
         <li>
           <Link to="/continents">by continent.</Link>
-        </li>
-        <li>
-          <Link to="/favorites">favorites.</Link>
         </li>
       </ul>
     </nav>

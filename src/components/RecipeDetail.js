@@ -32,25 +32,13 @@ function RecipeDetail() {
       });
   }, [id]);
 
-  if (loading) {
-    return (
-      <div className="recipe-detail">
-        <p className="loading-message">Loading...</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="recipe-detail">
+  return (
+    <div className="recipe-detail">
+      {loading ? (
+        <p className="loading-message">loading...</p>
+      ) : error ? (
         <p className="error-message">{error}</p>
-      </div>
-    );
-  }
-
-  if (selectedRecipe) {
-    return (
-      <div className="recipe-detail">
+      ) : selectedRecipe ? (
         <div className="recipe-detail-container">
           <h2>{selectedRecipe.name}</h2>
           <img src={selectedRecipe.thumbnail} alt={selectedRecipe.name} />
@@ -63,13 +51,9 @@ function RecipeDetail() {
             see recipe.
           </a>
         </div>
-      </div>
-    );
-  }
-
-  return (
-    <div className="recipe-detail">
-      <p className="error-message">Recipe not found.</p>
+      ) : (
+        <p className="error-message">recipe not found.</p>
+      )}
     </div>
   );
 }
